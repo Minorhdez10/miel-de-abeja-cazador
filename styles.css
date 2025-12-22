@@ -1,0 +1,38 @@
+:root {
+      --miel: #f4b400;
+      --miel-oscuro: #6b4f1d;
+      --crema: #fff7e6;
+    }
+
+    body {
+      background-color: var(--crema);
+    }
+
+    .bg-miel {
+      background-color: var(--miel);
+    }
+
+    .btn-miel {
+      background-color: var(--miel-oscuro);
+      color: #fff;
+    }
+
+    .btn-miel:hover {
+      background-color: #563d16;
+      color: #fff;
+    }
+
+    .text-miel {
+      color: var(--miel-oscuro);
+    }
+
+    .card {
+      border: none;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: var(--miel-oscuro);
+      color: white;
+    }
