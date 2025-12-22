@@ -9,7 +9,21 @@
     }
 
     .bg-miel {
-      background-color: var(--miel);
+      position: relative;
+      background: url("img/abejas.jpg") no-repeat center center;
+      background-size: cover;
+    }
+
+    .bg-miel::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5); /* black overlay with 50% transparency */
+    }
+
+    .bg-miel .container { 
+      position: relative; 
+      z-index: 1; 
     }
 
     .btn-miel {
@@ -24,6 +38,10 @@
 
     .text-miel {
       color: var(--miel-oscuro);
+    }
+
+    .bg-contact {
+      background-color: var(--miel);
     }
 
     .card {
