@@ -27,11 +27,21 @@
     }
 
     .btn-miel {
-      background-color: var(--miel-oscuro);
+      background-color: var(--miel);
       color: #fff;
     }
 
     .btn-miel:hover {
+      background-color: #CF9A06;
+      color: #fff;
+    }
+
+    .btn-miel-oscuro {
+      background-color: var(--miel-oscuro);
+      color: #fff;
+    }
+
+    .btn-miel-oscuro:hover {
       background-color: #563d16;
       color: #fff;
     }
