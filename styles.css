@@ -10,7 +10,7 @@
 
     .bg-miel {
       position: relative;
-      background: url("img/abejas.jpg") no-repeat center center;
+      background: url("images/abejas.jpg") no-repeat center center;
       background-size: cover;
     }
 
@@ -58,6 +58,17 @@
       border: none;
       border-radius: 1rem;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .card-img-top {
+      height: 250px;        /* altura fija en desktop */
+      object-fit: cover;    /* recorta sin deformar */
+    }
+
+    @media (max-width: 768px) {
+      .card-img-top {
+        height: 180px;      /* más pequeño en pantallas móviles */
+      }
     }
 
     footer {
