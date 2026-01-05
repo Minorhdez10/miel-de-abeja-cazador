@@ -10,15 +10,17 @@
 
     .bg-miel {
       position: relative;
-      background: url("images/abejas.jpg") no-repeat center center;
+      background: url("images/foto-hero.png") no-repeat center center;
       background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
 
     .bg-miel::before {
       content: "";
       position: absolute;
       top: 0; left: 0; right: 0; bottom: 0;
-      background-color: rgba(0, 0, 0, 0.5); /* black overlay with 50% transparency */
+      background-color: rgba(0, 0, 0, 0.5);
     }
 
     .bg-miel .container { 
@@ -61,13 +63,13 @@
     }
 
     .card-img-top {
-      height: 250px;        /* altura fija en desktop */
-      object-fit: cover;    /* recorta sin deformar */
+      height: 250px;
+      object-fit: cover;
     }
 
     @media (max-width: 768px) {
       .card-img-top {
-        height: 180px;      /* más pequeño en pantallas móviles */
+        height: 180px;
       }
     }
 
