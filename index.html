@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="styles.css">
 
-  <link rel="icon" type="image/x-icon" href="images/logo2-ICO.ico">
+  <link rel="icon" type="image/x-icon" href="media/images/logo2-ICO.ico">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -44,12 +44,14 @@
 
             Así garantizamos una miel auténtica, limpia, nutritiva y de alta calidad.<br><br>
 
-            📍 Ubicación en Waze: <strong>PUESTO CAZADOR</strong>
+            📍 Ubicación en Waze: <a href="https://waze.com/ul/hd1srctde1" target="_blank"><strong>PUESTO CAZADOR</strong></a><br>
+            📍 Ubicación en Google Maps: <a href="https://maps.app.goo.gl/pXc6maMjYeYsUV9N8?g_st=iw" target="_blank"><strong>PUESTO CAZADOR</strong></a>
           </p>
+
         </div>
         
         <div class="col-md-6 text-center">
-          <img src="images/logo2.jpeg"
+          <img src="media/images/logo2.jpeg"
             class="img-fluid rounded-4 w-50"
             alt="Miel de Abeja Cazador">
         </div>
@@ -68,7 +70,7 @@
       <div class="col-md-4">
         <div class="card h-100">
           <figure>
-            <img src="images/apis-mellifera.jpeg" class="card-img-top" alt="Apis mellifera">
+            <img src="media/images/apis-mellifera.jpeg" class="card-img-top" alt="Apis mellifera">
             <figcaption class="mt-2 text-muted small text-center">
               
             </figcaption>
@@ -90,7 +92,7 @@
       <div class="col-md-4">
         <div class="card h-100">
           <figure>
-            <img src="images/mariola.jpeg" class="card-img-top" alt="Tetragonisca angustula (Mariola)">
+            <img src="media/images/mariola.jpeg" class="card-img-top" alt="Tetragonisca angustula (Mariola)">
             <figcaption class="mt-2 text-muted small text-center">
               
             </figcaption>
@@ -112,7 +114,7 @@
       <div class="col-md-4">
         <div class="card h-100">
           <figure>
-            <img src="images/soncuano.jpg" class="card-img-top" alt="Scaptotrigona Pectoralis (Soncuano)">
+            <img src="media/images/soncuano.jpg" class="card-img-top" alt="Scaptotrigona Pectoralis (Soncuano)">
             <figcaption class="mt-2 text-muted small text-center">
               
             </figcaption>
@@ -170,36 +172,58 @@
     </div>
   </section>
 
-  <!-- GALERÍA DE FOTOS -->
+  <!-- FOTOS Y VIDEOS -->
   <section class="py-5 bg-white">
     <div class="container">
-      <h2 class="text-center mb-4 text-miel">Galería de fotos</h2>
+      <h2 class="text-center mb-4 text-miel">Fotos y Videos</h2>
 
-      <div id="carouselMiel" class="carousel slide w-50 mx-auto" data-bs-ride="carousel">
+      <div id="carouselMiel" class="carousel slide w-80 mx-auto" data-bs-ride="carousel">
         <div class="carousel-inner">
 
           <div class="carousel-item active">
-            <img src="images/foto1.jpg" class="d-block w-100 rounded-4 img-clickable">
+            <img src="media/images/foto1.jpg" class="d-block w-100 rounded-4 img-clickable">
           </div>
         
           <div class="carousel-item">
-            <img src="images/foto2.jpg" class="d-block w-100 rounded-4 img-clickable">
+            <img src="media/images/foto2.jpg" class="d-block w-100 rounded-4 img-clickable">
           </div>
 
           <div class="carousel-item">
-            <img src="images/foto3.jpg" class="d-block w-100 rounded-4 img-clickable">
+            <img src="media/images/foto3.jpg" class="d-block w-100 rounded-4 img-clickable">
           </div>
 
           <div class="carousel-item">
-            <img src="images/foto4.jpg" class="d-block w-100 rounded-4 img-clickable">
+            <img src="media/images/foto4.jpg" class="d-block w-100 rounded-4 img-clickable">
           </div>
 
           <div class="carousel-item">
-            <img src="images/foto5.jpg" class="d-block w-100 rounded-4 img-clickable">
+            <img src="media/images/foto5.jpg" class="d-block w-100 rounded-4 img-clickable">
           </div>
 
           <div class="carousel-item">
-            <img src="images/foto6.jpg" class="d-block w-100 rounded-4 img-clickable">
+            <img src="media/images/foto6.jpg" class="d-block w-100 rounded-4 img-clickable">
+          </div>
+          
+          <div class="carousel-item">
+            <img src="media/images/foto7.jpg" class="d-block w-100 rounded-4 img-clickable">
+          </div>
+
+          <div class="carousel-item"> 
+            <video class="d-block w-100 rounded-4" controls> <source src="media/videos/video1.mp4" type="video/mp4"> 
+              Tu navegador no soporta la reproducción de video. 
+            </video>
+          </div>
+
+          <div class="carousel-item">
+            <img src="media/images/foto8.jpg" class="d-block w-100 rounded-4 img-clickable">
+          </div>
+
+          <div class="carousel-item">
+            <img src="media/images/foto9.jpg" class="d-block w-100 rounded-4 img-clickable">
+          </div>
+
+          <div class="carousel-item">
+            <img src="media/images/foto10.jpg" class="d-block w-100 rounded-4 img-clickable">
           </div>
 
         </div>
@@ -215,17 +239,17 @@
     </div>
   </section>
 
-  <!-- Modal for image preview -->
+  <!-- Modal para preview de imagen-->
   <div class="modal fade" id="imageModal" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered modal-xl">
       <div class="modal-content">
         
-        <!-- Modal header with close button -->
+        <!-- Header del modal con botón para cerrar -->
         <div class="modal-header">
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         
-        <!-- Modal body with image -->
+        <!-- Cuerpo del modal con imagen -->
         <div class="modal-body text-center">
           <img id="modalImage" src="" class="img-fluid rounded-4">
         </div>
